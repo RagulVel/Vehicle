@@ -186,7 +186,8 @@ namespace Vehicle.Models
 
                 entity.Property(e => e.DateOfBirth)
                     .HasColumnName("Date_of_Birth")
-                    .HasColumnType("date");
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.DoorNo)
                     .IsRequired()

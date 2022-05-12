@@ -19,7 +19,7 @@ namespace Vehicle.Models
         public string FullName { get; set; }
         public string EmailId { get; set; }
         public int Age { get; set; }
-        public DateTime? DateOfBirth { get; set; }
+        public string DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string MobileNo { get; set; }
         public string AltMobileNo { get; set; }
